@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "multijoueurV2", "multijoueu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO", "POO\POO.csproj", "{CA5BBAF9-B749-4315-B078-AD54B89D8814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_AbsatractClass_Interface", "POO_AbsatractClass\POO_AbsatractClass_Interface.csproj", "{8C41A811-E3ED-40F5-B16D-247ACB4BACD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_AbsatractClass_Interface", "POO_AbsatractClass\POO_AbsatractClass_Interface.csproj", "{8C41A811-E3ED-40F5-B16D-247ACB4BACD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ui", "ui\ui.csproj", "{B6B1C9D0-770F-40F6-9B59-A0A78BAD23F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8C41A811-E3ED-40F5-B16D-247ACB4BACD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C41A811-E3ED-40F5-B16D-247ACB4BACD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C41A811-E3ED-40F5-B16D-247ACB4BACD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B1C9D0-770F-40F6-9B59-A0A78BAD23F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B1C9D0-770F-40F6-9B59-A0A78BAD23F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B1C9D0-770F-40F6-9B59-A0A78BAD23F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B1C9D0-770F-40F6-9B59-A0A78BAD23F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

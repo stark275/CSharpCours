@@ -11,6 +11,6 @@
             NombreEssais = 0;
         }
 
-        public abstract int DevinerNombre();
+        public abstract int DevinerNombre(TextBox textBox);
     }
 }

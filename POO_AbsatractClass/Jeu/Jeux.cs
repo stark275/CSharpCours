@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ui.Models;
 
 namespace POO_AbsatractClass_Interface.Jeu
 {
@@ -49,6 +50,8 @@ namespace POO_AbsatractClass_Interface.Jeu
                     else
                     {
                         joueurATrouve = true;
+                        Log log = new Log();
+                        log.CreateLog(joueur.Nom, joueur.NombreEssais);
                         Console.WriteLine($"Bravo {joueur.Nom} ! Vous avez trouvé le nombre mystère en {joueur.NombreEssais} essais.");
                         break;
                     }
